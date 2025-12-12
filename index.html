@@ -1,0 +1,350 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queenie Mariel | Portfolio</title><!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+#example1 {
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+},margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: #f4f4f4;
+        color: #333;
+        scroll-behavior: smooth;
+    }
+
+    /* NAVBAR */
+    nav {
+        width: 100%;
+        background: #111;
+        padding: 18px 45px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    nav .logo {
+        color: #f7ca44;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 35px;
+    }
+
+    nav ul li a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #f7ca44;
+    }
+    
+
+
+    /* SECTIONS */
+    section {
+        padding: 120px 60px;
+        animation: fadeIn 1.1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    #home {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    .description {
+        max-width: 600px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /* Image */
+    .profile-img {
+        margin-top: 30px;
+        width: 280px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    /* GRID BOXES */
+    .about-container, .service-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+    }
+
+    .info-box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .info-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .info-box h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    /* CONTACT FORM */
+    form {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    input, textarea {
+        padding: 12px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    textarea {
+        height: 130px;
+        resize: none;
+    }
+
+    button {
+        width: 150px;
+        padding: 12px;
+        background: #f7ca44;
+        color: #111;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #d4a634;
+    }
+
+    /* MOBILE RESPONSIVE */
+    @media (max-width: 768px) {
+        nav {
+            padding: 15px 25px;
+        }
+        h1 { font-size: 36px; }
+        h2 { font-size: 24px; }
+        section { padding: 110px 30px; }
+    }
+    
+    
+    
+</style>
+
+</head>
+<body><nav>
+    <div class="logo">QUEENIE</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+
+
+<!-- HOME SECTION -->
+<section id="home">
+    <h1>HI I AM QUEENIE</h1>
+    <h2>MARIEL D. MABILANGA</h2>
+    <p class="description">I am a passionate aspiring developer with a knack for creating clean, responsive, and user-friendly web interfaces. I am currently honing my skills in front-end technologies and seeking opportunities to expand my knowledge.</p>
+
+    <!-- Placeholder for Photo -->
+        <img src="hmm. jpg.png" alt="photo of a girl behind sunset" class="profile-img">
+    
+
+</section>
+ 
+ <!-- <img src="phone/DCIM/MyAlbums/Nicaa/img_malik.jpg" alt="Description of the image"> -->
+
+    
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>ABOUT ME</h2>
+    <div class="about-container">
+                <div class="info-box">
+          
+            <p>My journey into tech began not with code, but with curiosity. As a teenager, I found myself fascinated by how systems work-from computer hardware to the logic behind apps we use every day. That curiosity turned into passion, and passion led me here: building solutions that matter.</p>
+            </div>
+
+                <div class="info-box">
+            <h3>EDUCATION</h3>
+            <p>-BACHELOR OF SCIENCE AND INFORMATION COMMUNICATION TECHNOLOGY COLLEGE</p>
+        </div>
+
+        <div class="info-box">
+            <h3>HOBBIES</h3>
+            <ul>
+  <li>LISTEN MUSIC</li>
+  <li>CODING</li>
+  <li>PAINTING</li>
+</ul>
+
+        </div>
+
+        <div class="info-box";
+            <h3><b>TOOLS AND TECHNOLOGIES</b></h3>
+           <ul>
+  <li>HTML,CSS, AND JAVA</li>
+  <li>VS CODE</li>
+  <li>CANVA/FIGMA</li>
+</ul>
+
+        </div>
+    </div>
+</section>
+
+<!-- SERVICE SECTION -->
+<section id="service">
+    <h2>SERVICE</h2>
+    <div class="service-container">
+        <div class="info-box">
+            <h3>SOFTWARE DEVELOPMENT</h3>
+            <p>Creates and maintain custom software applicatios to meet specific business need.</p>
+        </div>
+        <div class="info-box">
+            <h3>CYBER SECURITY</h3>
+            <p>Protects system and data from cyber threats and attack.</p>
+        </div>
+                </div>
+              
+        <!-- PROJECT SECTION -->
+<section id="about">
+    <h2> PROJECTS</h2>
+    <div class="about-container">
+                <div class="info-box">
+            <h3>MY WORKS</h3>       
+<p>This project was created to provide a deeper understanding of the topic by researching, organizing data, and presenting findings in a clear and meaningful way. Through this work, we aim to identify issues, explain important concepts, and show how the topic relates to real-life situations. This project also helps develop our skills in critical thinking, creativity, and communication.</p>
+        </div>
+    </div>
+</section>
+ 
+         <!-- RACQRAN SECTION -->
+<section id="about">
+    <h3>RACQRAN ELECTRONICS</h3>
+    <div class="about-container">
+                <div class="info-box">
+                    <p>This works is a collaboration with my other comrade members:
+                    Jamila Moran, Analee Duavis and Rochelle Tamayo</p>
+                                <div>
+                <a href="https://amazing-meringue-616aa5.netlify.app/?fbclid=IwY2xjawOpAfNleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR73vFD9p4ag-PE2IEK6Vg5pZKYtmKGZZ9ZEzlylL_gl8gq-RHxnR0XHA0VBqA_aem_Cz_FRtgZd_mEuoyHrY4aQQ" target="_blank">RACQRAN LINKS</a>
+                              
+            </div>
+        </section>
+
+
+                  <!-- INFOGRAPHIC  SECTION -->
+<section id="about">
+    <h3>INFOGRAPHIC</h3>
+    <h4>About Designing for All: A Developer's Checklist for Digital Accessibility</h4>
+    <div class="about-container">
+                <div class="info-box">
+                    <p>This works is a collaboration with my other comrade members:
+                    Jamila Moran,Analee Duavis, Rochelle Tamayo,Shaymae Sumagang,Rheza Jade Partusa, Bhebie Jane Miras, Leah April Dico</p>
+                                <div>
+                <a href="https://shimmering-arithmetic-364b06.netlify.app/?fbclid=IwY2xjawOdDfBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR4y1qekX-N1NXn_4nfR5dN03U_af70omi_CZXMoLuDlj_qrz7e64DDifiHlkw_aem_-B_tJfRKbg1kSk7vtbenhA" target="_blank">INFOGRAPHIC LINKS</a>
+                              
+            </div>
+        </section>
+         
+         
+             <!-- RACQRAN BUSINESS SECTION -->
+<section id="about">
+    <h3>ENHANCING SALES TRACKING AND INVENTORY MANAGEMENT THROUGH DIGITALIZATION</h3>
+    <div class="about-container">
+                <div class="info-box">
+                    <p>This works is a collaboration with my other comrade members:
+                    Jamila Moran, Analee Duavis and Rochelle Tamayo</p>
+                                <div>
+                <a href="https://www.figma.com/proto/wbDLQQ5cayWOyYscYgWdib/2-SP?node-id=44-3" target="_blank">BUSINESS LINKS</a>
+                              
+            </div>
+        </section>
+         
+         
+                 <!-- REPORTING SECTION -->
+<section id="about">
+    <h3>PIONEERS OF COMPUTING: SHAPING THE DIGITAL WORLDS</h3>
+    <div class="about-container">
+                <div class="info-box">
+                    <p>This works is a collaboration with my other comrade members:
+                    Bhebie Jane Miras, Gamaliel Octobre,Leah April Dico, Mark Vincent Butawan and Neil Ambong Manayon</p>
+                                <div>
+                <a href="https://www.figma.com/deck/Hgsa8nzmRShHzYYVuamCSd/Untitled?node-id=1-37&t=GmAlDJj3siLszHTn-1&fbclid=IwY2xjawOpCXFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR53GFjYDCyNxZm0-BYjUjbpj-CR_O-jDPFCz7wxtU85BOCAhTJNIWcGVApJHA_aem_u8iIGRt0JBjKPO56Csqdjw">REPORTING LINKS</a>
+                              
+            </div>
+        </section>
+    
+    
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>CONTACT</h2>
+    <form>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="Contact No.">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">SUBMIT</button>
+    </form>
+</section>
+
+</body>
+</html>
